@@ -1,0 +1,235 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset End */
+
+/* Style */
+body{
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    padding: 35px;
+    border-radius: 15px;
+    margin-block: 100px;
+}
+
+.wrapper img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title{
+    margin-block: 20px;
+    padding-right: 10px;
+}
+
+.title h1{
+    font-size: 35px;
+    color: hsl(24, 5%, 18%);
+    margin-block: 20px;
+    font-family: 'Young Serif', serif;
+}
+
+.title p{
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', serif;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.preparation h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', serif;
+}
+
+.preparation ul{
+    margin-block: 10px;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    list-style-type: disc;
+    font-family: 'Outfit', serif;
+}
+
+.preparation li{
+    margin-left: 15px;
+    margin-block: 10px;
+}
+
+.preparation li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+strong{
+    font-weight: bold;
+}
+
+.ingredients{
+    margin-block: 25px;
+}
+
+.ingredients h2{
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    margin-bottom: 15px;
+}
+
+.ingredients ul{
+    margin-block: 10px;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    list-style-type: disc;
+    font-family: 'Outfit', serif;
+}
+
+.ingredients li{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.border{
+    height: 0.5px;
+    background-color: hsl(30, 10%, 34%);
+}
+
+.instructions{
+    margin-block: 20px;
+}
+
+.instructions h2{
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    margin-bottom: 15px;
+}
+
+.instructions ol{
+    margin-block: 10px;
+    font-size: 14px;
+    list-style-type: decimal;
+    font-family: 'Outfit', serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.instructions li{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.nutrition{
+    margin-block: 20px;
+}
+
+.nutrition h2{
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    margin-bottom: 15px;
+}
+
+.nutrition p{
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', serif;
+    margin-block: 15px;
+}
+
+.nutrition .gram{
+    font-size: 14px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', serif;
+    margin-block: 15px;
+    font-weight: bold;
+}
+
+.nutrition .info{
+    width: 280px;
+}
+
+.calories{
+    display: flex;
+    padding-left: 20px;
+}
+
+
+.carbs{
+    display: flex;
+    padding-left: 20px;
+}
+
+.protein{
+    display: flex;
+    padding-left: 20px;
+}
+
+.fat{
+    display: flex;
+    padding-left: 20px;
+}
